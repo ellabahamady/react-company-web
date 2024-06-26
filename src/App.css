@@ -1,12 +1,13 @@
-.header-hero {
-  position: absolute;
-  width: 30%;
+/* Header */
+.header-image {
+  position: fixed;
+  width: 20%;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-.bottom-hero {
+.bottom-image {
   position: fixed;
   width: 40%;
   bottom: 0;
@@ -14,69 +15,142 @@
   z-index: -1;
 }
 
-.text-menu-home {
+.menu-home {
   color: #ffffff;
   font-weight: bold;
 }
 
-.text-menu {
+.menu {
   color: #000000;
   font-weight: bold;
   margin: 0 10px;
 }
 
-.home-title-container {
+.login {
+  width: 100px;
+  margin: 0 0 0 20px;
+}
+
+/* Home */
+#home {
+  padding: 10% 0;
+}
+
+#home .home-title-container {
   padding: 40px;
 }
 
-.home-title {
+#home .home-title {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
 
-.home-comment-container {
+#home .home-comment-container {
   padding: 30px;
 }
 
-.home-comment {
+#home .home-comment {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.home-image {
+#home .home-image {
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.about-container {
-  margin-top: 50px;
+/* About */
+#about {
+  padding: 13% 0;
 }
 
-.about-image {
+#about .about-image {
   width: 100%;
 }
 
-.about-text {
+#about .about-text {
   padding: 20px;
 }
 
-.about-title {
+#about .about-title {
   font-size: 25px;
   font-weight: bold;
 }
 
-.about-description {
+#about .about-description {
   font-size: 20px;
 }
 
-.pricing-image {
-  height: 150px;
-  margin: 20px 0;
+/* Pricing */
+#pricing {
+  padding: 10% 0;
 }
 
-.pricing-description-no {
+#pricing .pricing-title {
+  text-align: center;
+}
+
+#pricing .pricing-item {
+  margin-bottom: 10px;
+}
+
+#pricing .pricing-description-no {
   text-decoration: line-through;
+}
+
+/* Contact */
+#contact {
+  padding: 10% 0;
+}
+
+#contact .contact-title {
+  text-align: center;
+}
+
+#contact .contact-text {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Footer */
+#footer .footer-copyright {
+  text-align: center;
+}
+
+#footer .footer-link {
+  text-align: center;
+  margin: 10px;
+}
+
+#footer .footer-link-menu {
+  display: block;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#footer img {
+  width: 40px;
+  margin: 15px;
+}
+
+@media (max-width: 768px) {
+  .header-image {
+    width: 40%;
+  }
+
+  #about {
+    padding: 25% 0;
+  }
+
+  #pricing {
+    padding: 20% 0;
+  }
 }

@@ -4,20 +4,18 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-import image1 from '../../assets/pricing1.svg';
-import image2 from '../../assets/pricing2.svg';
-import image3 from '../../assets/pricing3.svg';
-
 function Pricing() {
     return (
         <>
         <Container>
-            <Row>
-                <Col md={4} sm={12}>
+            <Row id="pricing">
+                <Col md={12} sm={12} className="pricing-title">
+                    <h2>Packages</h2>
+                </Col>
+                <Col md={4} sm={12} className="pricing-item">
                     <Card>
-                        <Card.Img variant="top" src={ image1 } className="pricing-image" />
                         <Card.Body>
-                            <Card.Title>Basic</Card.Title>
+                            <Card.Title>Basic - Rp 1.000.000</Card.Title>
                             <ListGroup>
                                 <ListGroup.Item>Mencatat barang masuk</ListGroup.Item>
                                 <ListGroup.Item>Mencatat barang keluar</ListGroup.Item>
@@ -30,11 +28,10 @@ function Pricing() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={4} sm={12}>
+                <Col md={4} sm={12} className="pricing-item">
                     <Card>
-                        <Card.Img variant="top" src={ image2 } className="pricing-image" />
                         <Card.Body>
-                            <Card.Title>Business</Card.Title>
+                            <Card.Title>Business - Rp 2.000.000</Card.Title>
                             <ListGroup>
                             <ListGroup.Item>Mencatat barang masuk</ListGroup.Item>
                                 <ListGroup.Item>Mencatat barang keluar</ListGroup.Item>
@@ -47,11 +44,10 @@ function Pricing() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={4} sm={12}>
+                <Col md={4} sm={12} className="pricing-item">
                     <Card>
-                        <Card.Img variant="top" src={ image3 } className="pricing-image" />
                         <Card.Body>
-                            <Card.Title>Entrepreneur </Card.Title>
+                            <Card.Title>Entrepreneur - Rp 3.000.000 </Card.Title>
                             <ListGroup>
                                 <ListGroup.Item>Mencatat barang masuk</ListGroup.Item>
                                 <ListGroup.Item>Mencatat barang keluar</ListGroup.Item>

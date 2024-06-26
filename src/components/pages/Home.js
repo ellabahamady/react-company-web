@@ -2,15 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import background from '../../assets/hero-bottom.svg';
-import image from '../../assets/home.svg';
+import background from '../../assets/hero-bottom.png';
+import homeImage from '../../assets/home.svg';
 
 function Home() {
     return (
         <>
         <Container>
-            <img src={ background } className="bottom-hero" alt="background" />
-            <Row>
+            <img src={ background } className="bottom-image" alt="background" />
+            <Row id="home">
                 <Col md={5} sm={12}></Col>
                 <Col md={6} sm={12} className="home-title-container">
                     <p className="home-title">ERP software solutions for your business</p>
@@ -18,7 +18,7 @@ function Home() {
                 </Col>
                 <Col md={6} sm={12} className="home-comment-container">
                     <p className="home-comment">"Excepteur sint occaecat cupidatat non proident."</p>
-                    <img src={ image } className="home-image" alt="image" />
+                    <img src={ homeImage } className="home-image" alt="home" />
                 </Col>
             </Row>
         </Container>
