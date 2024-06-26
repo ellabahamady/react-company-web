@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/react-company-web/static/css/main.87a7fd13.css",
-    "main.js": "/react-company-web/static/js/main.bb5ce1dc.js",
+    "main.css": "/react-company-web/static/css/main.abb14385.css",
+    "main.js": "/react-company-web/static/js/main.d4697437.js",
     "static/js/453.349afb51.chunk.js": "/react-company-web/static/js/453.349afb51.chunk.js",
+    "static/media/hero-bottom.png": "/react-company-web/static/media/hero-bottom.c217d1ea75986f4978ae.png",
     "static/media/about.svg": "/react-company-web/static/media/about.3064c73a2d46bcf9129eea08784b1d12.svg",
-    "static/media/pricing3.svg": "/react-company-web/static/media/pricing3.f8f7a2cf2803dcb683c14cc40a805732.svg",
-    "static/media/pricing1.svg": "/react-company-web/static/media/pricing1.5be25dca597a21542478d1a539d1edcf.svg",
+    "static/media/instagram.png": "/react-company-web/static/media/instagram.bc603acad2a8cb3bd098.png",
     "static/media/logo.svg": "/react-company-web/static/media/logo.47f609e46377dad79fff82547a58b554.svg",
-    "static/media/pricing2.svg": "/react-company-web/static/media/pricing2.db38b95720f81b07fc5913e05037c795.svg",
     "static/media/home.svg": "/react-company-web/static/media/home.68b96532520a0b2de1f6ba4d00de54e5.svg",
-    "static/media/hero-bottom.svg": "/react-company-web/static/media/hero-bottom.8a02b20d437eb22d5d6e701bd98d3229.svg",
     "index.html": "/react-company-web/index.html",
-    "static/media/hero-header.svg": "/react-company-web/static/media/hero-header.a20cdb9b01406b65fd6c1b53b8a3b661.svg",
-    "main.87a7fd13.css.map": "/react-company-web/static/css/main.87a7fd13.css.map",
-    "main.bb5ce1dc.js.map": "/react-company-web/static/js/main.bb5ce1dc.js.map",
+    "main.abb14385.css.map": "/react-company-web/static/css/main.abb14385.css.map",
+    "main.d4697437.js.map": "/react-company-web/static/js/main.d4697437.js.map",
     "453.349afb51.chunk.js.map": "/react-company-web/static/js/453.349afb51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87a7fd13.css",
-    "static/js/main.bb5ce1dc.js"
+    "static/css/main.abb14385.css",
+    "static/js/main.d4697437.js"
   ]
 }
